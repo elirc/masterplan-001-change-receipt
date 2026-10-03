@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-10-03T22:01:37.597356+00:00",
+  "nodeVersion": "v22.16.0",
+  "nodeChecks": {
+    "command": "node --test",
+    "exitCode": 0,
+    "tests": 3,
+    "output": "TAP version 13\n# Subtest: helper distinguishes staged content from newer saved content\nok 1 - helper distinguishes staged content from newer saved content\n  ---\n  duration_ms: 2443.7736\n  type: 'test'\n  ...\n# Subtest: empty staged patch produces an honest empty receipt\nok 2 - empty staged patch produces an honest empty receipt\n  ---\n  duration_ms: 0.8374\n  type: 'test'\n  ...\n# Subtest: nonempty receipt preserves the patch and leaves human claims blank\nok 3 - nonempty receipt preserves the patch and leaves human claims blank\n  ---\n  duration_ms: 0.9498\n  type: 'test'\n  ...\n1..3\n# tests 3\n# suites 0\n# pass 3\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 3142.8216\n"
+  },
+  "browserChecks": null,
+  "scope": "Actual local reference verification. Learner stories are not implemented. Remote CI results are separate."
+}
