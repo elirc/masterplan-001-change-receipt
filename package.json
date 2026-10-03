@@ -1,0 +1,14 @@
+{
+  "name": "masterplan-001-change-receipt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "receipt": "node tools/receipt.mjs"
+  },
+  "description": "A new teammate needs to understand one tiny change without a meeting."
+}
