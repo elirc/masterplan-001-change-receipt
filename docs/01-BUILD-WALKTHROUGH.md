@@ -32,11 +32,11 @@ Open src/receipt.js and find the Git argument list. Then open tools/receipt.mjs 
 
 The automated regression creates a temporary Git fixture with its own name and email. It stages one version and then writes a different working-tree version. A useful test must assert both what the receipt includes and what it excludes. The fixture is removed only after checking that its resolved path is a specifically named child of the temporary directory. Your normal repository is not used as a destructive test fixture.
 
-**Pause and produce evidence:** Filename contains spaces. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Stage 14:00; save 15:00 afterward. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Keep the implementation reviewable
 
-A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process. M001 additionally contains the actual two-file baseline and a separate opening-time correction.
+A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process. This repository additionally contains the actual two-file baseline and a separate opening-time correction.
 
 For your own variation, commit at a point where the behavior and evidence agree. Describe the trigger, the resulting behavior and the check in the commit message or review note. Avoid mixing a rule change with unrelated formatting because it makes the learning decision harder to see.
 

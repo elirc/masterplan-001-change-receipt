@@ -44,7 +44,7 @@ The command is fixed and read-only. Arguments are passed directly to Git, withou
 
 The Git fixture forced staged and saved content to differ. That made the command boundary observable rather than relying on an ordinary clean repository where both comparisons might look similar.
 
-The record in VERIFICATION.md reports actual local observations. A GitHub Actions workflow is provided, but its remote result must be inspected separately after a push. A screenshot documents one rendered state; it is not a substitute for the interaction and boundary checks.
+The record in VERIFICATION.md reports actual local observations. A GitHub Actions workflow is provided, but its remote result must be inspected separately after a push.
 
 ## What you should do differently on your own build
 

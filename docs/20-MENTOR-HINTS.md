@@ -104,9 +104,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Help a learner distinguish two patches.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add a read-only companion command; label each comparison; keep receipt generation tied to the index.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add a read-only companion command; label each comparison; keep receipt generation tied to the index. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Staging 14:00 then saving 15:00 yields different labeled views.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Staging 14:00 then saving 15:00 yields different labeled views. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose headings and the default view. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -114,9 +114,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Give reviewers a short orientation before the patch.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Read staged filenames through Git arguments; handle names containing spaces; render names without replacing the full patch.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Read staged filenames through Git arguments; handle names containing spaces; render names without replacing the full patch. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A spaced filename remains one item and an empty index gives zero items.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A spaced filename remains one item and an empty index gives zero items. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose whether names precede or follow intent. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -124,9 +124,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Let the author summarize one coherent change.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Accept an explicit title input; trim it; retain a visible placeholder for a missing title.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Accept an explicit title input; trim it; retain a visible placeholder for a missing title. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A title never changes staged content or invents test results.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A title never changes staged content or invents test results. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a length policy. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -134,9 +134,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Avoid pretending an unreadable patch contains a text explanation.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Stage a tiny disposable binary fixture; inspect Git's output; document the human explanation needed for that case.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Stage a tiny disposable binary fixture; inspect Git's output; document the human explanation needed for that case. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The receipt preserves Git's actual description and labels the evidence limitation.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The receipt preserves Git's actual description and labels the evidence limitation. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a harmless fixture format. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -144,9 +144,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Make setup errors actionable.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Invoke the helper from a separate non-repository folder; catch the Git error at the CLI boundary; explain the correct working-directory requirement.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Invoke the helper from a separate non-repository folder; catch the Git error at the CLI boundary; explain the correct working-directory requirement. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The CLI reports failure without creating a repository or staging anything.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The CLI reports failure without creating a repository or staging anything. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose error wording and exit code. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -154,9 +154,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Teach review of removed content.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Remove only a scratch demo copy; stage that deletion; describe which information is lost in the receipt.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Remove only a scratch demo copy; stage that deletion; describe which information is lost in the receipt. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The receipt shows the staged deletion and distinguishes it from an untracked missing file.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The receipt shows the staged deletion and distinguishes it from an untracked missing file. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the review question for the author. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -164,9 +164,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Explain a surprising text diff.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Create a scratch text fixture without a final newline; stage a newline-only edit; compare visual editor content with Git output.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Create a scratch text fixture without a final newline; stage a newline-only edit; compare visual editor content with Git output. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The guide identifies the exact byte-level change without calling it an event-time change.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The guide identifies the exact byte-level change without calling it an event-time change. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a compact demonstration fixture. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -174,9 +174,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Detect unfinished human placeholders.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Parse only your own receipt headings; identify blank intent or verification; report warnings without modifying Git state.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Parse only your own receipt headings; identify blank intent or verification; report warnings without modifying Git state. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A missing field is reported while truthful unverified status remains possible.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A missing field is reported while truthful unverified status remains possible. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Decide warning versus failure policy. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -184,9 +184,9 @@ Look for a concrete connection to `src/receipt.js` or `tools/receipt.mjs`. A str
 
 **First hint:** The desired improvement is “Help a second learner inspect a change independently.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Link a specific commit; record the behavior contract; give read-only reproduction commands and a known limitation.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Link a specific commit; record the behavior contract; give read-only reproduction commands and a known limitation. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Another learner can locate the exact patch without relying on your current editor state.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Another learner can locate the exact patch without relying on your current editor state. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the minimum evidence fields. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 

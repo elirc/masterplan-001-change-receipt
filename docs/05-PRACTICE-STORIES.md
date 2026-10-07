@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Add an outcome sentence
 
-**User need:** As a learner or user of Change Receipt, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Extend the human receipt template with an explicit user-visible outcome, without inventing it from the diff.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Distinguish an empty index
-
-**User need:** As a learner or user of Change Receipt, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Improve the empty-index explanation with the next two read-only inspection commands.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Record a verification limitation
 
-**User need:** As a learner or user of Change Receipt, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Add a section asking what a completed check does not prove.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Practice a rename-only review
-
-**User need:** As a learner or user of Change Receipt, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** On your own branch, rename the demo notice and write a receipt explaining the change.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Reject a misleading review sentence
 
-**User need:** As a learner or user of Change Receipt, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Create a practice receipt that says “no behavior change” for an opening-time edit, then repair the explanation.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Teach a safe undo
-
-**User need:** As a learner or user of Change Receipt, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Document git revert for a specifically identified demo change on a new practice branch.
 

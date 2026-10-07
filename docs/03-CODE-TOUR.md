@@ -16,7 +16,7 @@
 
 Start at [src/receipt.js](../src/receipt.js) and locate `stagedPatch`. Use this trace as a map: Save 14:00 in demo/notice.txt → git add that exact file → save a further 15:00 edit without staging → stagedPatch runs git diff --cached → the receipt contains 14:00 while git diff shows the unstaged 15:00 change.
 
-The tooling is intentionally separate from the product concept. You can study the local server or CI after the main rule is clear. Neither an HTTP preview server nor a workflow configuration should become a prerequisite for understanding an inline-block box or a small pure function.
+The tooling is intentionally separate from the product concept. You can study the CLI adapter or CI after the main rule is clear. A workflow configuration should not become a prerequisite for understanding the staging boundary.
 
 ## Decision: Read the index, not the working tree
 
@@ -44,10 +44,10 @@ The command is fixed and read-only. Arguments are passed directly to Git, withou
 
 ## Change boundaries
 
-A small change should begin in the file that owns its meaning. Change domain rules in the core, wording and interaction in the browser adapter, and layout in the relevant CSS rule. For the static references, semantic information belongs in HTML before styling. For the Git reference, the staged snapshot boundary belongs in the helper rather than being guessed from editor state.
+A small change should begin in the file that owns its meaning. The staged snapshot boundary and receipt wording belong in `src/receipt.js` rather than being guessed from editor state; printing and the friendly failure message belong in `tools/receipt.mjs`.
 
-If a story crosses two files, say why. A new unit, weather option or UI station may require a contract, a control and tests to change together. That is a coherent feature boundary, not permission to rewrite unrelated parts of the project.
+If a story crosses two files, say why. A new receipt field may require the template, its test and the documented example to change together. That is a coherent feature boundary, not permission to rewrite unrelated parts of the project.
 
 ## Deliberate limits
 
-No persistence, external integration or general framework is hidden behind these files. The preview server is a local development aid, not a production hosting system. A browser screenshot is one observation, not proof of every device or assistive technology. Keep these limits visible when describing your own work.
+No persistence, external integration or general framework is hidden behind these files. The helper only reads the local index; it has no hosting, network or commit role. A passing temporary-repository test is one observation, not proof for every Git configuration. Keep these limits visible when describing your own work.

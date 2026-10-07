@@ -12,6 +12,8 @@ This paragraph is the reference behavior. If you extend the product, update the 
 
 Save 14:00 in demo/notice.txt → git add that exact file → save a further 15:00 edit without staging → stagedPatch runs git diff --cached → the receipt contains 14:00 while git diff shows the unstaged 15:00 change.
 
+On main, demo/notice.txt already reads 14:00, so saving 14:00 there stages nothing. Reproduce the trace on a practice branch created from the 13:00 baseline commit (`git switch -c practice/trace e0a4d5d`), or shift every time by one hour as in the walkthrough's three-snapshot exercise.
+
 Copy that trace onto paper. At each arrow, name the input, the owner of the rule or state, and the output. For browser layout, the owner is a CSS rule acting on a particular box. For JavaScript, it may be a local variable, a returned object or a callback. For Git, it is a specific snapshot comparison. These are different mechanisms but the same useful habit: make the boundary visible.
 
 ## Examples you can verify independently
